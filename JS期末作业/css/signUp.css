@@ -26,7 +26,17 @@ body {
 	background-color: #70b9b0;
 }
 
-.btn {
+.btn[type=submit] {
+	width: 250px;
+	margin: 10px 0 0 25px;
+	border: none;
+	background-color: #70b9b0;
+	color: #FEFEFE;
+}
+.btn[type=reset] {
+	
+	width: 100px;
+	margin: 10px 0 0 0;
 	border: none;
 	background-color: #70b9b0;
 	color: #FEFEFE;
