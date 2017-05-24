@@ -1,0 +1,102 @@
+body {
+	background-color: #F7F7F7;
+}
+
+.navbar-fixed-top {
+	background-color: #70b9b0;
+	height: 100px;
+	border-style: none;
+	opacity: 0.8;
+}
+
+.navbar-fixed-top a {
+	color: #FEFEFE;
+	font-weight: bold;
+}
+
+.navbar-fixed-top .navbar-collapse {
+	padding-top: 40px;
+}
+
+.navbar-fixed-top .icon {
+	font-size: 28px;
+}
+
+.navbar-right>li a:hover {
+	background-color: #70b9b0;
+}
+
+.btn {
+	border: none;
+	background-color: #70b9b0;
+	color: #FEFEFE;
+}
+
+.btn:hover {
+	color: #70b9b0;
+	font-weight: bold;
+	background-color: #FEFEFE;
+}
+
+.panel {
+	margin-top: 120px;
+}
+
+.input-group-addon {
+	width: 30px !important;
+}
+
+.loginTip {
+	
+	line-height: 30px;
+	padding: 0 0 0 15px;
+	color: #C9302C;
+}
+
+.list-group {
+	font-size: 36px;
+	margin: 0 auto;
+}
+
+.list-group li,
+.list-group li:first-child,
+.list-group li:last-child {
+	padding: 0;
+	margin: 0;
+	height: 50px;
+	width: 50px;
+	background-color: #70b9b0;
+	border: solid 1px #F5F5F5;
+	border-radius: 25px;
+	transform: rotate(0deg);
+	transition-property: transform;
+	transition-duration: 1s;
+}
+
+.list-group li a,
+.list-group li:first-child a,
+.list-group li:last-child a {
+	color: #F5F5F5;
+}
+
+.list-group li:hover,
+.list-group li:first-child:hover,
+.list-group li:last-child:hover {
+	transform: rotate(360deg);
+	background-color: #F7F7F7;
+}
+
+.list-group li:hover a,
+.list-group li:first-child:hover a,
+.list-group li:last-child:hover a {
+	color: #70b9b0;
+}
+
+.footer {
+	padding-top: 40px;
+	background: #70b9b0;
+}
+
+.footer p {
+	color: #F5F5F5;
+}
