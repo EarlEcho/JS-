@@ -8,7 +8,7 @@
 	// 年龄验证
 	jQuery.validator.addMethod("isAge", function(value, element) {
 		
-		var age = /^(1[79]|[2-8][0-8]|80)$/g; // 区号－3、4位 号码－7、8位
+		var age = /^(1[89]|[2-8][0-8]|80)$/g; // 区号－3、4位 号码－7、8位
 		return this.optional(element) || (age.test(value));
 	}, "请输入18-80的年龄。");
 	
