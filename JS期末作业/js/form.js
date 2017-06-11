@@ -77,7 +77,7 @@
 		},
 		errorPlacement : function(error, element) {
 			element.next().remove();
-			element.after('<span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>');
+			element.after('<i class="glyphicon glyphicon-remove form-control-feedback" ></i>');
 			element.closest('.form-group').append(error);
 		},
 		highlight : function(element) {
@@ -86,7 +86,7 @@
 		success : function(label) {
 			var el=label.closest('.form-group').find("input");
 			el.next().remove();
-			el.after('<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>');
+			el.after('<i class="glyphicon glyphicon-ok form-control-feedback"></i>');
 			label.closest('.form-group').removeClass('has-error').addClass("has-feedback has-success");
 			label.remove();
 		},
